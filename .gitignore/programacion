@@ -1,0 +1,32 @@
+#1- leer el material de la pag
+#2-hacer la autoevaluacion que esta en la pag
+#3- implementar en un archivo de python la clase cola 
+class Cola:
+       def _init_(self) :
+          self.items = []
+
+       def estaVacia(self) :
+           return self.items == []
+
+       def agregar(self,items) :
+           self.items.insert(0,item)
+
+       def avanzar (self) :
+           return self.items.pop() 
+   
+       def tamano (self) :
+           return len(self.items) 
+
+#4- Agregar a la clase pila los siguientes metodos( usando preferentemente los metodos ya utilizados)
+#       1- imprimir cola
+#       2- vaciar cola
+#       3- Dar vuelta cola """
+       def imprimir_cola (self) :
+           print (self.items)
+       
+       def vaciarcola () :
+           self.items = [] 
+
+       def darvuelta () :
+            return None
+c = Cola()
